@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stellar Counter dApp</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.4.1/stellar-sdk.js"></script>
+</head>
+<body>
+    <h1>Stellar Testnet Counter</h1>
+    <button id="connect">Connect Freighter Wallet</button>
+    <p>Counter Value: <span id="value">0</span></p>
+    <button id="increment">Increment +1</button>
+
+    <script>
+        // Frontend integration logic
+        const CONTRACT_ID = "PASTE_YOUR_CONTRACT_ID_HERE";
+        
+        document.getElementById('connect').onclick = async () => {
+            alert("Connecting to Freighter...");
+            // Kullanıcı cüzdanını bağlama mantığı buraya gelir
+        };
+    </script>
+</body>
+</html>
